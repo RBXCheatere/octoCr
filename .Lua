@@ -63,8 +63,8 @@ local library = {
     open = false;
     opening = false;
     hasInit = false;
-    cheatname = startupArgs.cheatname or 'octohook';
-    gamename = startupArgs.gamename or 'universal';
+    cheatname = startupArgs.cheatname or 'GameBreaker';
+    gamename = startupArgs.gamename or 'Trident';
     fileext = startupArgs.fileext or '.txt';
     domain = startupArgs.domain or '.rip';
 }
@@ -72,7 +72,7 @@ local library = {
 
 library.themes = {
     {
-        name = 'Default',
+        name = 'GameBreaker',
         theme = {
             ['Accent']                    = fromrgb(255,135,255);
             ['Background']                = fromrgb(18,18,18);
